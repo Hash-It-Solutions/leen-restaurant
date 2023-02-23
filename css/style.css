@@ -1,0 +1,92 @@
+body{
+    background: url("../images/body.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: 'Outfit';
+}
+
+/* --------------common css start start--------------- */
+.head-color{
+    color: #53341F;
+}
+.sub-head-color{
+    color: #EAC900;
+}
+.dark-color{
+    color: #16110D;
+}
+.para-color{
+    color: #8F8F8C;
+}
+.button-style{
+    background-color: #53341F;
+    color: #EAC900;
+    font-weight: bold;
+    padding: 13px 25px;
+    border-radius: 20px 0px 20px 0px;
+}
+/* --------------common css start end--------------- */
+
+/* --------------navbar start--------------- */
+.navbar img{
+    width: 80px;
+    height: auto;
+}
+.navbar {
+    background-color: #3D2400;
+}
+.navbar  .nav-item .nav-link{
+    color: #eeebeb;
+}
+.navbar  .nav-item .nav-link.active, .navbar  .nav-item .nav-link:focus, .navbar  .nav-item .nav-link:hover{
+    color: #EAC900;
+    font-weight: bold;
+}
+.nav-btn{
+    background-color: #EAC900;
+    padding: 10px 20px;
+    border-radius: 15px 0px 15px 0px;
+}
+/* --------------navbar end--------------- */
+
+/* --------------home start--------------- */
+.home{
+    background: url("../images/home.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.home hr{
+    color: #000000;
+    height: 2px;
+}
+/* --------------home end--------------- */
+
+/* --------------about start--------------- */
+.about{
+    padding-top:100px;
+    background: url("../images/about/about-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: justify;
+}
+.about .food-img{
+    width: 500px;
+    height: auto;
+}
+/* --------------about end--------------- */
+.cuisine{
+    padding-top: 100px;
+    background: url("../images/cuisine.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
