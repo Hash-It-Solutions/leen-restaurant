@@ -23,8 +23,17 @@ body{
     background-color: #53341F;
     color: #EAC900;
     font-weight: bold;
-    padding: 13px 25px;
+    padding: 10px 25px;
+    border: 0;
     border-radius: 20px 0px 20px 0px;
+}
+.line{
+    height: 2px;
+    width: 100px;
+    margin-top: 10px;
+}
+.lilly{
+    font-family: 'Lily Script One';
 }
 /* --------------common css start end--------------- */
 
@@ -38,6 +47,7 @@ body{
 }
 .navbar  .nav-item .nav-link{
     color: #eeebeb;
+    transition: 0.3s ease;
 }
 .navbar  .nav-item .nav-link.active, .navbar  .nav-item .nav-link:focus, .navbar  .nav-item .nav-link:hover{
     color: #EAC900;
@@ -61,6 +71,7 @@ body{
     display: block;
     padding-top: 150px;
     padding-bottom: 100px;
+    background-attachment: fixed;
 }
 .home hr{
     color: #000000;
@@ -89,4 +100,271 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px;
+    background-attachment: fixed;
 }
+
+
+/* --------------menu start--------------- */
+.menu{
+    margin-top: 100px;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu .filter-item {
+    margin-bottom: 20px;
+  }
+  
+  .menu .filter-item img {
+    width: 100%;
+  }
+  
+  .menu .filter-hidden {
+    display: none;
+  }
+  .menu  .card{
+    background-color: #eacb006c;
+    border: 0;
+    height: 100%;
+    border-radius: 25px 0px 25px 0px;
+    padding: 15px;
+  }
+  .menu  .card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    display: block;
+    margin: 0 auto;
+  }
+  .menu .menu-items{
+    margin-top: 50px;
+  }
+  .menu .btn-group {
+    justify-content: center;
+    align-items: center;
+  }
+  .menu .btn-group button{
+    background-color: #D3CCA2;
+    border-radius: 0;
+    border: 1px solid #3D2400;
+    font-size: 13px;
+    padding: 10px 20px;
+    color: #3D2400;
+  }
+  .menu .button-filters{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .menu .btn-group button.active,  .menu .btn-group button:hover,  .menu .btn-group button:focus{
+    background-color: #3D2400;
+    color: #EAC900;
+  }
+/* --------------menu end--------------- */
+
+/* --------------enjoyable start--------------- */
+.enjoyable{
+    margin-top: 100px;
+    background: url("../images/main/enjoyable.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+    background-attachment: fixed;
+}
+/* --------------enjoyable end--------------- */
+
+/* --------------reservation start--------------- */
+.reservation{
+    padding-top: 100px;
+    background: url("../images/main/reservation/reservation.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+}
+.reservation form{
+    background-color: transparent;
+    padding: 25px 40px;
+    width: 90%;
+    margin: 0 auto;
+}
+.reservation form input, .reservation form textarea{
+    background-color: transparent;
+    border: 1px solid #3D2400;
+    padding: 15px;
+    border-radius:  15px 0px 15px 0px;
+    color: #3D2400;
+}
+.reservation form input::placeholder, .reservation form textarea::placeholder{
+    color: #3D2400;
+}
+
+/* --------------reservation end--------------- */
+
+/* --------------menu start--------------- */
+.gallery{
+    margin-top: 100px;
+}
+.gallery a{
+    text-decoration: none;
+}
+.gallery .filter-item {
+    margin-bottom: 20px;
+  }
+  
+  .gallery .filter-hidden {
+    display: none;
+  }
+  .gallery .gallery-items img{
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 15px 0px 15px 0px;
+  }
+  .gallery .gallery-items{
+    margin-top: 30px;
+  }
+  .gallery .btn-group {
+    float: right;
+  }
+  .gallery .btn-group a{
+    padding: 10px;
+    color: #3D2400;
+    transition: 0.3s ease
+  }
+  .gallery .btn-group button{
+    background-color: #D3CCA2;
+    border-radius: 0;
+    border: 1px solid #3D2400;
+    font-size: 13px;
+    padding: 10px 20px;
+    color: #3D2400;
+  }
+  .gallery .button-filters{
+    display: flex;
+    justify-content: right;
+  }
+  .gallery .btn-group a.active,  .gallery .btn-group a:hover,  .gallery .btn-group a:focus{
+    color: #EAC900;
+    font-weight: bold;
+  }
+/* --------------menu end--------------- */
+
+/* --------------contact start--------------- */
+.contact{
+    margin-top: 100px;
+    background: url("../images/main/contact/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+.contact a{
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.contact .contact-form-bg{
+    background-color: rgba(255, 255, 255, 0.67);
+    padding: 50px;
+    border-radius:  25px 0px 25px 0px;
+}
+.contact .address:hover{
+    color: #16110D;
+    opacity: 0.7;
+}
+.contact form{
+    padding: 25px 40px;
+    width: 85%;
+    margin: 0 auto;
+}
+.contact form input, .contact form textarea{
+    background-color: transparent;
+    border: 1px solid #3D2400;
+    padding: 10px;
+    border-radius:  15px 0px 15px 0px;
+    color: #3D2400;
+}
+.contact form input::placeholder, .contact form textarea::placeholder{
+    color: #3D2400;
+}
+.contact .contact-links{
+    color: #EAC900;
+    opacity: 0.7;
+}
+.contact .icon-bg{
+    background-color: #756f69;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+.contact .icon-bg:hover{
+    opacity: 0.8;
+}
+.contact .icon-bg i{
+    margin-left: 5px;
+    color: #EAC900;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.contact .twitter{
+    padding: 6px 5px;
+}
+.contact .facebook{
+    padding: 6px 7px;
+}
+.contact .youtube{
+    padding: 5px 5px;
+}
+.contact .instagram{
+    padding: 5px 6px;
+}
+.contact .google{
+    padding: 5px 4px;
+}
+/* --------------contact end--------------- */
+
+
+/* --------------footer start--------------- */
+.footer{
+     background-color: #3A1D09;
+     padding: 100px 50px;
+}
+.footer a{
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.footer a:hover{
+    opacity: 0.7;
+}
+.footer img{
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.footer b{
+    font-weight: normal;
+}
+.footer .address, .footer p{
+    color: #c6c6c6;
+}
+.footer .contact-links:hover{
+    color: #EAC900;
+    opacity: 0.7;
+}
+.footer button{
+    background-color: #EAC900;
+    color:  #3A1D09;
+    font-weight: bold;
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 20px 0px 20px 0px;
+}
+.footer input{
+    padding: 15px;
+    border-radius: 20px 0px 20px 0px;
+}
+/* --------------footer end--------------- */
