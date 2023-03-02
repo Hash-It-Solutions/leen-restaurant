@@ -1,0 +1,156 @@
+/* --------------about-us start--------------- */
+.about-us .about-us-banner{
+    background: url("../images/about/about-us/about-banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+}
+.about-us  .about-first-section{
+    padding-top: 100px;
+    background: url("../images/about/about-us/first-section-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    width: 100%;
+    text-align: justify;
+}
+.about-us  .first-sec-img{
+    width: 90%;
+    height: auto;
+}
+.about-us .about-first-section .author{
+    margin-left: 40%;
+    font-size: 14px;
+}
+/* --------------about-us end--------------- */
+
+/* --------------second-first-section start--------------- */
+.second-first-section{
+    padding-top: 100px;
+    background: url("../images/right-vector.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    width: 100%;
+    text-align: justify;
+}
+.about-us .first-sec-img{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+/* --------------second-first-section end--------------- */
+
+/* --------------about-enjoyable start--------------- */
+.about-us .about-enjoyable{
+    background: url("../images/about/about-us/about-enjoyable-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+}
+/* --------------about-enjoyable end--------------- */
+
+/* --------------about-indoor end--------------- */
+.indoor{
+    padding-top: 100px;
+    background: url("../images/left-vector.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    width: 100%;
+    text-align: justify;
+}
+.indoor .indoor-img{
+    width: 80%;
+    height: auto;
+    border-radius: 25px 0px 25px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+/* --------------about-indoor end--------------- */
+
+/* --------------about-indoor end--------------- */
+.outdoor{
+    padding-top: 100px;
+    background: url("../images/right-vector.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    width: 100%;
+    text-align: justify;
+}
+.outdoor .outdoor-img{
+    width: 80%;
+    height: auto;
+    border-radius: 25px 0px 25px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+/* --------------about-indoor end--------------- */
+
+/* --------------about-visit-us start--------------- */
+.about-us  .about-visit-us{
+    background: url("../images/about/about-us/about-visit-us-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+}
+
+.about-us .about-visit-us .author-name p{
+    margin-top: 18px;
+}
+.about-us .about-visit-us .about-visit-us-desc{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+/* --------------about-visit-us end--------------- */
+
+/* --------------leen-reservation start--------------- */
+.leen-reservation{
+    padding: 100px;
+    background: url("../images/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.leen-reservation form{
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+}
+.leen-reservation form input{
+    background-color: transparent;
+    border: 1px solid #3D2400;
+    padding: 12px;
+    border-radius:  10px 0px 10px 0px;
+    color: #3D2400;
+    width: 100%;
+}
+.leen-reservation form button{
+    width: 100%!important;
+    border-radius:  10px 0px 10px 0px!important;
+    padding: 12px!important;
+}
+.leen-reservation form input::placeholder, .leen-reservation form input::placeholder{
+    color: #3D2400;
+}
+/* --------------leen-reservation end--------------- */

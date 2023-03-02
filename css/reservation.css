@@ -1,0 +1,11 @@
+.book-table .book-table-banner{
+    background: url("../images/reservation/book-table-banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    padding-top: 220px;
+    padding-bottom: 120px;
+    background-attachment: fixed;
+}

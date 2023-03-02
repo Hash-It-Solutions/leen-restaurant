@@ -81,8 +81,8 @@ body{
 
 /* --------------about start--------------- */
 .about{
-    padding-top:100px;
-    background: url("../images/about/about-bg.png");
+    padding: 100px;
+    background: url("../images/bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,6 +93,8 @@ body{
     height: auto;
 }
 /* --------------about end--------------- */
+
+
 .cuisine{
     padding-top: 100px;
     background: url("../images/cuisine.png");
@@ -106,7 +108,12 @@ body{
 
 /* --------------menu start--------------- */
 .menu{
-    margin-top: 100px;
+    padding-top: 100px;
+    background: url("../images/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
 }
 .menu a{
     text-decoration: none;
@@ -165,7 +172,6 @@ body{
 
 /* --------------enjoyable start--------------- */
 .enjoyable{
-    margin-top: 100px;
     background: url("../images/main/enjoyable.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -182,7 +188,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 150px;
 }
 .reservation form{
     background-color: transparent;
@@ -205,7 +210,12 @@ body{
 
 /* --------------menu start--------------- */
 .gallery{
-    margin-top: 100px;
+    /* padding-top: 100px; */
+    background: url("../images/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
 }
 .gallery a{
     text-decoration: none;
@@ -255,7 +265,6 @@ body{
 
 /* --------------contact start--------------- */
 .contact{
-    margin-top: 100px;
     background: url("../images/main/contact/bg.png");
     background-position: center;
     background-repeat: no-repeat;
