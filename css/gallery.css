@@ -1,0 +1,42 @@
+.gallery-banner {
+    background: url("../images/gallery/gallery-banner-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    padding-top: 220px;
+    padding-bottom: 120px;
+    background-attachment: fixed;
+}
+
+/* --------------leen-reservation start--------------- */
+.leen-reservation{
+    padding: 100px;
+    background: url("../images/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.leen-reservation form{
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+}
+.leen-reservation form input{
+    background-color: transparent;
+    border: 1px solid #3D2400;
+    padding: 12px;
+    border-radius:  10px 0px 10px 0px;
+    color: #3D2400;
+    width: 100%;
+}
+.leen-reservation form button{
+    width: 100%!important;
+    border-radius:  10px 0px 10px 0px!important;
+    padding: 12px!important;
+}
+.leen-reservation form input::placeholder, .leen-reservation form input::placeholder{
+    color: #3D2400;
+}
+/* --------------leen-reservation end--------------- */

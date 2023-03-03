@@ -210,7 +210,7 @@ body{
 
 /* --------------menu start--------------- */
 .gallery{
-    /* padding-top: 100px; */
+    padding-top: 100px;
     background: url("../images/bg.png");
     background-position: center;
     background-repeat: no-repeat;
