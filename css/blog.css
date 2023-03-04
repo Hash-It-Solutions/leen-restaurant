@@ -33,3 +33,15 @@
     margin-top: 25px;
     margin-bottom: 25px;
 }
+@media(max-width: 991px){
+    .blog .our-blogs .blog-img{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+        margin-top: 20px;
+    }
+    .blog .our-blogs .start{
+        padding-top: 50px;
+    }
+}

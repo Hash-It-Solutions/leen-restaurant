@@ -24,9 +24,10 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container">
       <a class="navbar-brand" href="index.html"><img src="images/nav-logo.png" alt="navbar logo" class="img-fluid"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="toggler-icon top-bar"></span>
+        <span class="toggler-icon middle-bar"></span>
+        <span class="toggler-icon bottom-bar"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -69,88 +70,90 @@
     </section>
      <!-- -------------------book-table-banner end----------------- -->
 
-  <!-- -------------------leen-reservation start----------------- -->
-  <section class="leen-reservation">
-    <div class="container">
-      <div class="d-flex justify-content-center align-items-center">
-        <h6 class="fw-bold sub-head-color lilly me-2">Reservation</h6>
-        <img src="images/yellow-line.png" alt="line" class="img-fluid line">
-      </div>
-      <h4 class="fw-bold head-color text-uppercase text-center">book your table</h4>
-      <form action="">
-        <div class="row justify-content-center align-items-center">
-          <div class="col-lg-3">
-            <input type="text" class="form-control" placeholder="Name" aria-label="First name">
-          </div>
-          <div class="col-lg-3">
-            <input type="text" class="form-control" placeholder="Date" aria-label="Last name">
-          </div>
-          <div class="col-lg-3">
-            <input type="text" class="form-control" placeholder="People" aria-label="Last name">
-          </div>
+<!-- -------------------leen-reservation start----------------- -->
+    <section class="leen-reservation">
+      <div class="container">
+        <div class="d-flex justify-content-center align-items-center">
+          <h6 class="fw-bold sub-head-color lilly me-2">Reservation</h6>
+          <img src="images/yellow-line.png" alt="line" class="img-fluid line">
         </div>
-          <div class="row justify-content-center align-items-center mt-2">
+        <h4 class="fw-bold head-color text-uppercase text-center">book your table</h4>
+        <form action="">
+          <div class="row justify-content-center align-items-center">
             <div class="col-lg-3">
-              <input type="text" class="form-control" placeholder="Email ID" aria-label="First name">
+              <input type="text" class="form-control" placeholder="Name" aria-label="First name">
             </div>
             <div class="col-lg-3">
-              <input type="text" class="form-control" placeholder="Time" aria-label="Last name">
+              <input type="text" class="form-control" placeholder="Date" aria-label="Last name">
             </div>
             <div class="col-lg-3">
-              <button class="btn btn-sm button-style">Find a Table</button>
+              <input type="text" class="form-control" placeholder="People" aria-label="Last name">
             </div>
           </div>
-      </form>
-    </div>
-  </section>
+            <div class="row justify-content-center align-items-center mt-md-2 mt-sm-0">
+              <div class="col-lg-3">
+                <input type="text" class="form-control" placeholder="Email ID" aria-label="First name">
+              </div>
+              <div class="col-lg-3">
+                <input type="text" class="form-control" placeholder="Time" aria-label="Last name">
+              </div>
+              <div class="col-lg-3">
+                <button class="btn btn-sm button-style">Find a Table</button>
+              </div>
+            </div>
+        </form>
+      </div>
+    </section>
 <!-- -------------------leen-reservation end----------------- -->
 
 <!-- -------------------about-indoor start----------------- -->
-<section class="indoor">
-    <div class="container">
-      <div class="row justify-content-center align-items-center">
-        <div class="col-lg-6">
-          <img src="images/about/about-us/indoor.jpg" alt="indoor image" class="img-fluid indoor-img">
-        </div>
-        <div class="col-lg-6">
-          <div class="d-flex">
-            <h6 class="fw-bold sub-head-color lilly me-2">Indoor</h6>
-            <img src="images/yellow-line.png" alt="line" class="img-fluid line">
+    <section class="indoor">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-6  order-1 order-md-0">
+            <img src="images/about/about-us/indoor.jpg" alt="indoor image" class="img-fluid indoor-img">
           </div>
-          <h4 class="fw-bold head-color text-uppercase">warm atmosphere</h4>
-          <p class="para-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at vulputate est, non
-            elementum nibh. Vestibulum id vulputate sem. Maecenas tempus metus et ligula tristique feugiat. Nullam
-            vulputate velit ipsum, ac tristique sapien mattis at. Morbi blandit, ipsum auctor mollis pharetra, enim
-            ipsum pretium arcu, varius fringilla nisl sapien quis dui. Nulla volutpat tortor eu egestas tristique.
-            Pellentesque lorem purus, pharetra in dignissim eget, ornare ut mauris.</p>
+          <div class="col-lg-6  order-0 order-md-1">
+            <div class="d-flex main-title">
+              <h6 class="fw-bold sub-head-color lilly me-2">Indoor</h6>
+              <img src="images/yellow-line.png" alt="line" class="img-fluid line">
+            </div>
+            <h4 class="fw-bold head-color text-uppercase title-media">warm atmosphere</h4>
+            <p class="para-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at vulputate est, non
+              elementum nibh. Vestibulum id vulputate sem. Maecenas tempus metus et ligula tristique feugiat. Nullam
+              vulputate velit ipsum, ac tristique sapien mattis at. Morbi blandit, ipsum auctor mollis pharetra, enim
+              ipsum pretium arcu, varius fringilla nisl sapien quis dui. Nulla volutpat tortor eu egestas tristique.
+              Pellentesque lorem purus, pharetra in dignissim eget, ornare ut mauris.</p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 <!-- -------------------about-indoor end----------------- -->
 
+    <hr class="d-block d-md-none" >
+
 <!-- -------------------about-outdoor start----------------- -->
-<section class="outdoor">
-<div class="container">
-  <div class="row justify-content-center align-items-center">
-    <div class="col-lg-6">
-      <div class="d-flex">
-        <h6 class="fw-bold sub-head-color lilly me-2">Indoor</h6>
-        <img src="images/yellow-line.png" alt="line" class="img-fluid line">
+    <section class="outdoor">
+    <div class="container">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-lg-6 ">
+        <div class="d-flex main-title">
+          <h6 class="fw-bold sub-head-color lilly me-2">Indoor</h6>
+          <img src="images/yellow-line.png" alt="line" class="img-fluid line">
+        </div>
+        <h4 class="fw-bold head-color text-uppercase title-media">warm atmosphere</h4>
+        <p class="para-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at vulputate est, non
+          elementum nibh. Vestibulum id vulputate sem. Maecenas tempus metus et ligula tristique feugiat. Nullam
+          vulputate velit ipsum, ac tristique sapien mattis at. Morbi blandit, ipsum auctor mollis pharetra, enim
+          ipsum pretium arcu, varius fringilla nisl sapien quis dui. Nulla volutpat tortor eu egestas tristique.
+          Pellentesque lorem purus, pharetra in dignissim eget, ornare ut mauris.</p>
       </div>
-      <h4 class="fw-bold head-color text-uppercase">warm atmosphere</h4>
-      <p class="para-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at vulputate est, non
-        elementum nibh. Vestibulum id vulputate sem. Maecenas tempus metus et ligula tristique feugiat. Nullam
-        vulputate velit ipsum, ac tristique sapien mattis at. Morbi blandit, ipsum auctor mollis pharetra, enim
-        ipsum pretium arcu, varius fringilla nisl sapien quis dui. Nulla volutpat tortor eu egestas tristique.
-        Pellentesque lorem purus, pharetra in dignissim eget, ornare ut mauris.</p>
+      <div class="col-lg-6 ">
+        <img src="images/about/about-us/outdoor.jpg" alt="indoor image" class="img-fluid outdoor-img">
+      </div>
     </div>
-    <div class="col-lg-6">
-      <img src="images/about/about-us/outdoor.jpg" alt="indoor image" class="img-fluid outdoor-img">
     </div>
-  </div>
-</div>
-</section>
+    </section>
 <!-- -------------------about-outdoor end----------------- -->
 
 

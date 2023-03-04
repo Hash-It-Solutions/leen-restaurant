@@ -28,10 +28,24 @@
     margin-left: 40%;
     font-size: 14px;
 }
+@media(max-width: 991px){
+    .about-us .about-us-banner{
+        padding-top: 200px;
+        padding-bottom: 100px;
+        background-attachment: fixed;
+    }
+    .about-us  .about-first-section{
+        padding: 100px 10px;
+    }
+    .media-button{
+        margin: 0 auto;
+        display: block;
+    }
+}
 /* --------------about-us end--------------- */
 
-/* --------------second-first-section start--------------- */
-.second-first-section{
+/* --------------about-second-section start--------------- */
+.about-second-section{
     padding-top: 100px;
     background: url("../images/right-vector.png");
     background-position: center;
@@ -47,7 +61,16 @@
     margin: 0 auto;
     display: block;
 }
-/* --------------second-first-section end--------------- */
+@media(max-width: 991px){
+    .about-second-section{
+        padding: 30px 10px 50px 10px;
+    }
+    .about-us .first-sec-img{
+        width: 100%;
+        height: auto;
+    }
+}
+/* --------------about-second-section end--------------- */
 
 /* --------------about-enjoyable start--------------- */
 .about-us .about-enjoyable{
@@ -80,6 +103,17 @@
     border-radius: 25px 0px 25px 0px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+@media(max-width: 991px){
+    .indoor{
+        padding: 100px 10px 30px 10px;
+    }
+    .indoor .indoor-img{
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        margin-top: 20px;
+    }
+}
 /* --------------about-indoor end--------------- */
 
 /* --------------about-indoor end--------------- */
@@ -98,6 +132,17 @@
     height: auto;
     border-radius: 25px 0px 25px 0px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+@media(max-width: 991px){
+    .outdoor{
+        padding: 30px 10px 100px 10px;
+    }
+    .outdoor .outdoor-img{
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        margin-top: 20px;
+    }
 }
 /* --------------about-indoor end--------------- */
 
@@ -121,6 +166,14 @@
     width: 80%;
     margin: 0 auto;
     text-align: center;
+}
+@media(max-width: 991px){
+    .about-us  .about-visit-us{
+        padding: 100px 10px;
+    }
+    .about-us .about-visit-us .about-visit-us-desc{
+        width: 100%;
+    }
 }
 /* --------------about-visit-us end--------------- */
 
@@ -152,5 +205,12 @@
 }
 .leen-reservation form input::placeholder, .leen-reservation form input::placeholder{
     color: #3D2400;
+}
+@media(max-width: 991px){
+    .leen-reservation{
+        padding: 100px 10px;
+    }
+    .leen-reservation form input{
+margin-bottom: 10px;    }
 }
 /* --------------leen-reservation end--------------- */

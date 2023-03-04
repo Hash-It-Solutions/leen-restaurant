@@ -9,7 +9,9 @@
     padding-bottom: 120px;
     background-attachment: fixed;
 }
-
+.leen-gallery .gallery{
+    padding-bottom: 50px;
+}
 /* --------------leen-reservation start--------------- */
 .leen-reservation{
     padding: 100px;
@@ -38,5 +40,12 @@
 }
 .leen-reservation form input::placeholder, .leen-reservation form input::placeholder{
     color: #3D2400;
+}
+@media(max-width: 991px){
+    .leen-reservation{
+        padding: 100px 10px;
+    }
+    .leen-reservation form input{
+margin-bottom: 10px;    }
 }
 /* --------------leen-reservation end--------------- */
