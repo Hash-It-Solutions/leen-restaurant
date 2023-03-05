@@ -1,0 +1,32 @@
+.biriyani-meals{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.biriyani-meals .dish-bg{
+    padding: 10px;
+    background-color: rgb(238, 229, 144);
+    margin-right: 10px;
+}
+.biriyani-meals .dish-bg img{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+}
+@media(max-width: 991px){
+    .biriyani-meals{
+        padding: 10px;
+    }
+    .biriyani-meals .dish-bg{
+        padding: 10px;
+        margin-right: auto;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .biriyani-meals .dish-bg img{
+        height: 100px;
+        width: 100px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+}

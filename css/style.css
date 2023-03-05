@@ -26,6 +26,13 @@ body{
     padding: 10px 25px;
     border: 0;
     border-radius: 20px 0px 20px 0px;
+    transition: 0.3s ease;
+    border: 1px solid #53341F;
+}
+.button-style:hover{
+    background-color: #EAC900;
+    color: #53341F;
+    border: 1px solid #53341F;
 }
 .line{
     height: 2px;
@@ -45,6 +52,27 @@ body{
         text-align: center;
     }
 }
+
+
+img.vert-move {
+    -webkit-animation: mover 2.3s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+  img.vert-move {
+    -webkit-animation: mover 2.5s infinite  alternate;
+    animation: mover 2.5s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-22px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-22px); }
+}
+
+  
+
 /* --------------common css start end--------------- */
 
 /* --------------navbar start--------------- */
@@ -58,8 +86,9 @@ body{
 .navbar  .nav-item .nav-link{
     color: #eeebeb;
     transition: 0.3s ease;
+    padding: 20px;
 }
-.navbar  .nav-item .nav-link.active, .navbar  .nav-item .nav-link:focus, .navbar  .nav-item .nav-link:hover{
+.navbar-nav .nav-link.active, .navbar .navbar-nav .nav-link:focus, .navbar  .navbar-nav .nav-link:hover{
     color: #EAC900;
     font-weight: bold;
 }
@@ -67,6 +96,13 @@ body{
     background-color: #EAC900;
     padding: 10px 20px;
     border-radius: 15px 0px 15px 0px;
+    transition: 0.3s ease;
+    border: 1px solid #EAC900;
+}
+.nav-btn:hover{
+    border: 1px solid #EAC900;
+    color: #EAC900;
+    background-color: transparent;
 }
 
 /* --------------------toggle button css start----------------------- */
@@ -166,6 +202,7 @@ body{
     .home img{
         margin: 0 auto;
         display: block;
+        margin-top: 30px;
     }
 }
 /* --------------home end--------------- */
@@ -173,7 +210,7 @@ body{
 /* --------------about start--------------- */
 .about{
     padding: 100px;
-    background: url("../images/bg.png");
+    background: url("../images/left-vector.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -243,6 +280,11 @@ body{
     height: 100%;
     border-radius: 25px 0px 25px 0px;
     padding: 15px;
+    transition: transform 250ms;
+    width: 18rem;
+  }
+  .menu  .card:hover {
+    transform: translateY(-10px);
   }
   .menu  .card img{
     width: 150px;
@@ -266,6 +308,7 @@ body{
     font-size: 13px;
     padding: 10px 20px;
     color: #3D2400;
+    transition: 0.3s ease;
   }
   .menu .button-filters{
     margin: 0 auto;
@@ -276,7 +319,7 @@ body{
     background-color: #3D2400;
     color: #EAC900;
   }
-  @media(max-width: 991px){
+  @media(max-width: 1280px){
     .menu{
         padding: 100px 10px;
     }
@@ -377,6 +420,10 @@ body{
     object-fit: cover;
     width: 100%;
     border-radius: 15px 0px 15px 0px;
+    transition: all 0.3s ease-in-out;
+  }
+  .gallery .gallery-items img:hover{
+    transform: scale(1.1);
   }
   .gallery .gallery-items{
     margin-top: 30px;
@@ -401,7 +448,7 @@ body{
     display: flex;
     justify-content: right;
   }
-  .gallery .btn-group a.active,  .gallery .btn-group a:hover,  .gallery .btn-group a:focus{
+  .gallery .btn-group .filter-btn.active,  .gallery .btn-group .filter-btn:hover,  .gallery .btn-group .filter-btn:focus{
     color: #EAC900;
     font-weight: bold;
   }
@@ -455,7 +502,10 @@ body{
     color: #3D2400;
 }
 .contact .contact-links{
-    color: #EAC900;
+    color: #53341F;
+    transition: 0.3s ease;
+}
+.contact .contact-links:hover{
     opacity: 0.7;
 }
 .contact .icon-bg{
@@ -531,7 +581,6 @@ body{
     color: #c6c6c6;
 }
 .footer .contact-links:hover{
-    color: #EAC900;
     opacity: 0.7;
 }
 .footer button{
@@ -541,6 +590,13 @@ body{
     padding: 10px 25px;
     border: 0;
     border-radius: 20px 0px 20px 0px;
+    transition: 0.3s ease;
+    border: 1px solid #EAC900;
+}
+.footer button:hover{
+    border: 1px solid #EAC900;
+    color: #EAC900;
+    background-color: transparent;
 }
 .footer input{
     padding: 15px;
@@ -551,9 +607,9 @@ body{
         padding: 100px 10px;
    }
 }
-@media only screen and(width: 280px){ 
-    .input-group input{
-        width: 300px;
+@media(max-width: 320px){ 
+    .footer input{
+        font-size: 12px;
     }
   }
 /* --------------footer end--------------- */

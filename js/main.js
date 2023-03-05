@@ -1,20 +1,9 @@
-//   --------------------filter gallery--------------------------
+// ----------------------li active---------------------------------
 
-$(document).ready(function() {
-    $(".filter-btn").on("click", function() {
-      var filter = $(this).attr("data-filter");
+
+function changeNav(cls){
+    $("." + cls).addClass("active");
+  }
   
-      $(".filter-item").addClass("filter-hidden");
-      if (filter == "all") {
-        $(".filter-item").removeClass("filter-hidden");
-      } else {
-        $(".filter-item." + filter).removeClass("filter-hidden");
-      }
-    });
-  });
-
   
-//   --------------------filter gallery--------------------------
-
-
-
+  // ------------------------li active--------------------------------

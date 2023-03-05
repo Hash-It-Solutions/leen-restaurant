@@ -6,6 +6,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- ---------------Favicon start----------------- -->
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon_package_v0.16//apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16//favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16//favicon-16x16.png">
+  <link rel="manifest" href="favicon_package_v0.16//site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <!-- ---------------Favicon end----------------- -->
+
+  <!-- ---------------Favicon start----------------- -->
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon_package_v0.16//apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16//favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16//favicon-16x16.png">
+  <link rel="manifest" href="favicon_package_v0.16//site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <!-- ---------------Favicon end----------------- -->
+
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -18,7 +36,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <nav class="navbar navbar-expand-lg  fixed-top">
     <div class="container">
       <a class="navbar-brand" href="index.html"><img src="images/nav-logo.png" alt="navbar logo" class="img-fluid"></a>
       <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,22 +47,22 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link home-nav" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link about-nav" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="menu.html">Menu</a>
+            <a class="nav-link menu-nav" href="menu.html">Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="reservation.html">Reservation</a>
+            <a class="nav-link reservation-nav" href="reservation.html">Reservation</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Gallery</a>
+            <a class="nav-link gallery-nav" href="gallery.html">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="blog.html">Blog</a>
+            <a class="nav-link blog-nav" href="blog.html">Blog</a>
           </li>
         </ul>
         <a href="contact.html"><button class="btn btn-sm nav-btn fw-bold" type="submit">Contact</button></a>
@@ -67,7 +85,7 @@
           <button class="btn btn-sm button-style">Explore More</button>
         </div>
         <div class="col-lg-6">
-          <img src="images/leen.png" alt="home image" class="img-fluid">
+          <img src="images/leen.png" alt="home image" class="img-fluid vert-move">
         </div>
       </div>
     </div>
@@ -80,7 +98,7 @@
     <div class="container">
       <div class="row justify-content-center align-items-center">
         <div class="col-lg-6 order-1 order-md-0">
-          <img src="images/about/ch1.png" alt="about image" class="img-fluid food-img">
+          <img src="images/about/ch1.png" alt="about image" class="img-fluid food-img vert-move">
         </div>
         <div class="col-lg-6 order-0 order-md-1">
           <div class="d-flex main-title">
@@ -113,59 +131,98 @@
   <!-- -------------------cuisine end----------------- -->
 
   <!-- -------------------menu start----------------- -->
-  <section class="menu">
+  <section class="menu" >
     <div class="container">
       <h4 class="fw-bold head-color text-center mb-4 text-uppercase">MENU</h4>
       <div class="row">
         <div class="col-md-12 button-filters justify-content-center align-items-center">
           <div class="btn-group " role="group">
-            <button type="button" class="btn btn-secondary filter-btn text-uppercase" data-filter="all">All</button>
+            <button type="button" class="btn btn-secondary filter-btn text-uppercase active" data-filter="all">All</button>
             <button type="button" class="btn btn-secondary filter-btn text-uppercase"
               data-filter="breakfast">Breakfast</button>
             <button type="button" class="btn btn-secondary filter-btn text-uppercase" data-filter="lunch">Lunch</button>
-            <button type="button" class="btn btn-secondary filter-btn text-uppercase"
-              data-filter="dinner">Dinner</button>
+            <button type="button" class="btn btn-secondary filter-btn text-uppercase" data-filter="drinks">Drinks</button>
             <button type="button" class="btn btn-secondary filter-btn text-uppercase" data-filter="our-spceial">Our
               Special</button>
           </div>
         </div>
         <div class="row menu-items justify-content-center align-items-center">
-          <div class="col-lg-3 filter-item breakfast">
-            <a href="">
-              <div class="card" style="width: 18rem;">
+          <div class="col-md-4 col-lg-3 col-sm-12 filter-item lunch">
+            <a href="biriyani-meals.html">
+              <div class="card" >
                 <div class="card-body">
                   <img src="images/Menu/1.jpg" class="card-img-top img-fluid" alt="...">
-                  <h5 class="fw-bold head-color card-title text-center mt-3">Chicken Biriyani</h5>
+                  <h5 class="fw-bold head-color card-title text-center mt-3">Biriyani & Meals</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 filter-item breakfast">
+            <a href="breads.html">
+              <div class="card" >
+                <div class="card-body">
+                  <img src="images/Menu/1.jpg" class="card-img-top" alt="...">
+                  <h5 class="fw-bold head-color card-title text-center mt-3">Breads</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 filter-item breakfast">
+            <a href="manthi.html">
+              <div class="card" >
+                <div class="card-body">
+                  <img src="images/Menu/1.jpg" class="card-img-top" alt="...">
+                  <h5 class="fw-bold head-color card-title text-center mt-3">Manthi</h5>
                 </div>
               </div>
             </a>
           </div>
           <div class="col-lg-3 filter-item lunch">
-            <a href="">
-              <div class="card" style="width: 18rem;">
+            <a href="rice-noodles.html">
+              <div class="card" >
                 <div class="card-body">
                   <img src="images/Menu/1.jpg" class="card-img-top" alt="...">
-                  <h5 class="fw-bold head-color card-title text-center mt-3">Chicken Biriyani</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-3 filter-item dinner">
-            <a href="">
-              <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                  <img src="images/Menu/1.jpg" class="card-img-top" alt="...">
-                  <h5 class="fw-bold head-color card-title text-center mt-3">Chicken Biriyani</h5>
+                  <h5 class="fw-bold head-color card-title text-center mt-3">Rice & Noodles</h5>
                 </div>
               </div>
             </a>
           </div>
           <div class="col-lg-3 filter-item our-spceial">
-            <a href="">
-              <div class="card" style="width: 18rem;">
+            <a href="biriyani-meals.html">
+              <div class="card" >
                 <div class="card-body">
                   <img src="images/Menu/1.jpg" class="card-img-top" alt="...">
-                  <h5 class="fw-bold head-color card-title text-center mt-3">Chicken Biriyani</h5>
+                  <h5 class="fw-bold head-color card-title text-center mt-3">Fish</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 filter-item drinks">
+            <a href="biriyani-meals.html">
+              <div class="card" >
+                <div class="card-body">
+                  <img src="images/Menu/1.jpg" class="card-img-top" alt="...">
+                  <h5 class="fw-bold head-color card-title text-center mt-3">Cold Bevarages</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 filter-item drinks">
+            <a href="biriyani-meals.html">
+              <div class="card" >
+                <div class="card-body">
+                  <img src="images/Menu/1.jpg" class="card-img-top" alt="...">
+                  <h5 class="fw-bold head-color card-title text-center mt-3">Hot Bevarages</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 filter-item drinks">
+            <a href="biriyani-meals.html">
+              <div class="card" >
+                <div class="card-body">
+                  <img src="images/Menu/1.jpg" class="card-img-top" alt="...">
+                  <h5 class="fw-bold head-color card-title text-center mt-3">Mocktail</h5>
                 </div>
               </div>
             </a>
@@ -203,19 +260,19 @@
         <div class="col-lg-6">
           <form>
             <div class="mb-2">
-              <input type="text" class="form-control empty" id="iconified" placeholder=" Name">
+              <input type="text" class="form-control empty" id="iconified" placeholder=" Name" required>
             </div>
             <div class="mb-2">
-              <input type="email" class="form-control" id="email" placeholder="Email ID">
+              <input type="email" class="form-control" id="email" placeholder="Email ID" required>
             </div>
             <div class="mb-2">
-              <input type="date" class="form-control" id="date" placeholder="Date">
+              <input type="date" class="form-control" id="date" placeholder="Date" required>
             </div>
             <div class="mb-2">
-              <input type="time" class="form-control" id="time" placeholder="Time">
+              <input type="time" class="form-control" id="time" placeholder="Time" required>
             </div>
             <div class="mb-3">
-              <input type="number" class="form-control" id="people" placeholder="People">
+              <input type="number" class="form-control" id="people" placeholder="People" required>
             </div>
             <div class="text-center">
               <a href="#" class="text-decoration-none"><button type="submit" class="btn btn-sm button-style">Find A
@@ -224,7 +281,7 @@
           </form>
         </div>
         <div class="col-lg-6 d-none d-lg-block">
-          <img src="images/main/reservation/1.png" alt="" class="img-fluid">
+          <img src="images/main/reservation/1.png" alt="" class="img-fluid vert-move">
         </div>
       </div>
     </div>
@@ -242,7 +299,7 @@
       <div class="row">
         <div class="col-md-12 button-filters">
           <div class="btn-group " role="group">
-            <a href="#gallery" class="filter-btn" data-filter="all">All</a>
+            <a href="#gallery" class="filter-btn active" data-filter="all">All</a>
             <a href="#gallery" class="filter-btn" data-filter="indoor" data-filter="indoor">Indoor</a>
             <a href="#gallery" class="filter-btn" data-filter="outdoor" data-filter="outdoor">Outdoor</a>
           </div>
@@ -311,10 +368,10 @@
           <div class="col-lg-6">
             <a href="#" class="dark-color address">2972 Westheimer Rd. Santa Ana, Illinois 85486 </a><br>
             <a href="#" class="dark-color address">3890 Poplar </a>
-            <p class="dark-color">Reservation Number: <a href="tel: +002585478521" class="sub-head-color contact-links fw-bold">+002585478521</a></p>
+            <p class="dark-color">Reservation Number: <a href="tel: +002585478521" class="head-color contact-links  fw-bold">+002585478521</a></p>
             <p class="dark-color fw-bold">Working Hours</p>
-            <p class="dark-color">Monday - Friday: <b class="sub-head-color fw-bold"> 8:00 AM </b> &nbsp; to  <b class="sub-head-color fw-bold"> &nbsp;10:00 PM</b></p>
-            <p class="dark-color">Saturday - Sunday: <b class="sub-head-color fw-bold"> 10:00 AM</b> &nbsp; to  <b class="sub-head-color fw-bold"> &nbsp; 11:00 PM</b></p>
+            <p class="dark-color">Monday - Friday: <b class="head-color fw-bold"> 8:00 AM </b> &nbsp; to  <b class="head-color fw-bold"> &nbsp;10:00 PM</b></p>
+            <p class="dark-color">Saturday - Sunday: <b class="head-color fw-bold"> 10:00 AM</b> &nbsp; to  <b class="head-color fw-bold"> &nbsp; 11:00 PM</b></p>
             <div class="d-flex contact-social-icons">
               <a href="#" class="me-2">
                 <div class="icon-bg twitter">
@@ -368,7 +425,7 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus efficitur aliquet elit at rhoncus</p>
           <form action="">
             <div class="input-group mb-3">
-              <input type="text" class="form-control" placeholder="Enter Your Email ID" name="email">
+              <input type="text" class="form-control" placeholder="Enter Your Email ID" name="email" required>
               <button class="btn btn-sm  ms-1">Subscribe</button>
             </div>
           </form>
@@ -378,12 +435,18 @@
   </section>
   <!-- -------------------footer end----------------- -->
 
-
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js" integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js" integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
   <script src="js/main.js"></script>
+  <script src="js/gallery.js"></script>
+  <script>
+    changeNav("home-nav");
+  </script>
 </body>
 
 </html>
