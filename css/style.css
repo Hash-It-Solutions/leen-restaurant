@@ -293,6 +293,7 @@ img.vert-move {
     border: 5px solid white;
     display: block;
     margin: 0 auto;
+    object-fit: cover;
   }
   .menu .menu-items{
     margin-top: 50px;
