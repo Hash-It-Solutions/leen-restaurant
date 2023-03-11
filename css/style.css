@@ -192,6 +192,7 @@ img.vert-move {
     color: #000000;
     height: 2px;
 }
+
 @media(max-width: 991px){
     .home{
         text-align: center;
@@ -539,6 +540,24 @@ img.vert-move {
 .contact .google{
     padding: 5px 4px;
 }
+.shops{
+    margin-top: 100px;
+}
+ .shops img{
+    border-radius: 10px 0px 10px 0px;
+    transition: 0.3s ease;
+}
+.shops img:hover{
+    opacity: 0.8;
+}
+.shops button{
+    padding: 5px 15px!important;
+    font-size: 13px;
+    border-radius: 10px 0px 10px 0px;
+}
+.location-head{
+    margin-top: 50px;
+}
 @media(max-width: 991px){
     .contact{
         padding: 100px 10px;
@@ -552,6 +571,9 @@ img.vert-move {
     }
     .contact .contact-social-icons{
         overflow-x: scroll;
+    }
+    .shop-location{
+        margin-top: 50px;
     }
 }
 /* --------------contact end--------------- */
